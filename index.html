@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/99860ffdc8.js" crossorigin="anonymous"></script>
+
+    <title>practice</title>
+</head>
+
+<body>
+    <main>
+        <div class="main__content">
+            <div class="header">
+                <h1>Oh` the JOYFUL STRUGGLE of flexbox CSS <i class="fa-regular fa-face-sad-tear"></i>
+                    <i class="fa-regular fa-face-smile"></i>
+                </h1>
+                <img class="header__img" src="./assets/undraw_proud_coder_re_exuy.svg">
+
+                <div id="cheat__sheet">
+                    <a href="https://drive.google.com/file/d/1VEF2zFgr7NvgaTLMDn7REYu17FByDKo5/view"
+                        target="_blank">*****
+                        CSS
+                        layout cheatsheet *****</a>
+                </div>
+                <div class="container">
+                    <div class="block">Display flex changes the block element default to be side by side in a row
+                        typically on the main container of dev blocks, this allows flex-direction, align-items, and
+                        justify-content. By default flex direction is row, but can be changed to column.</div>
+                    <div class="block"> Align-items by defualt is stretched and is especially noticed if the main
+                        contianer has a good height. Most used for align-items is center, which alings items vertically.
+                        Justify content alings-items horizontal. Default is start of the element, but it can be set to
+                        end, and center.</div>
+                    <div class="block"> You can also set space-around, or space-between. Align-items and justify-content
+                        when combined are perfect for centering vertical and horizontal in parent; However, if
+                        flex-direction is set to column then align-items and justify-content roles are reversed.</div>
+                </div>
+            </div>
+            <div class="general__info--container">
+                <div class="general__row">
+                    <div class="general__info--text">
+                        <h2>General Information</h2>
+                        <p>Example code: <br />
+                            display: flex;<br />
+                            flex-direction:column;<br />
+                            align-items: center; *** the item is centered on the horizonal axis <br />
+                            justify-content: center; *** aligns the items on the verlical axis </p>
+                        <p>Another code example that is used frequently for logo and nav links is to use space between
+                            for containers
+                            within the parent, using two elements (see layout#1).
+                        </p>
+                        <p>Just remember, the parent is the one controlling all the children, so make sure that you are
+                            placing
+                            align-items and justify-content with the display-flex in the parent.</p>
+                        <p>Quickly add footer space for content with display-flex and flex-end</p>
+
+                        <a href="https://www.skool.com/fes-institute/classroom/ea5ca520?md=5ed1ef49c19a4d1d9c76ad4b4fb8287f"
+                            target="_blank">Visit here For
+                            exmaples
+                            of layouts</a>
+                    </div>
+                </div>
+                <div class="general__info--img">
+                    <img src="./assets/undraw_portfolio_update_re_jqnp.svg" alt="">
+                </div>
+            </div>
+        </div> <!-- end general__info--container -->
+
+        <div class="my__thoughts">
+            <h2>Best Practices for CSS</h2>
+            <p>I feel that having additional resources outside of a main bootcamp can be beneficial; however, don't go
+                down a rabbit hole and start viewing more videos than you need or confusing yourself with information
+                overload <i class="fa-regular fa-face-dizzy"></i>. I have provided limited resources here to best
+                compliment
+                what FES teaches...in my opinion...because, sometimes I need to see/hear/read it explained a couple of
+                different ways for it to sink in. I discovered a few bits and pieces that I want to share.</p>
+        </div><!-- end my thoughts -->
+
+        <div class="best__practices--container">
+            <div class="best__practices--row">
+                <div class="best__practices--img">
+                    <img src="https://assets.codepen.io/437527/undraw_winter_designer_a-2-m7.svg" alt="">
+                </div>
+                <div class="best__practices--list">
+                    <h2>Best Practices for CSS</h2>
+                    <ul class="best__practices--list-items">
+                        <dl>Principal #1</dl>
+                        <dd>Every web page is made up of rows, and each row is a separate idea</dd>
+                        <dl>Principal #2</dl>
+                        <dd>The backgrounds of rows should not be the same twice in a row (unless it's already visually
+                            distinct).
+                            Each row should have vertical padding somewhere between 50 to 80 pixels</dd>
+                        <dl>Principal #3</dl>
+                        <dd>You NEED the content before you lay out a website.</dd>
+                    </ul>
+                    <a href="https://www.youtube.com/watch?v=3C_22eBWpjg">reference</a>
+                </div>
+            </div>
+        </div>
+        <div class="box__links">
+            <div class="row__links">
+                <div class="block2">
+                    <p>Wireframe kits can be found here on <a href="https://in.pinterest.com/pin/380554237267159742/"
+                            target="_blank">Pinterest</a></p>
+                    <br />
+                    <p>Another great Youtube video for people just beginning their journey in Web Development and feel
+                        they need
+                        help with flexbox CSS was created by: <a href="https://youtu.be/vQAvjof1oe4?si=X2JHmHwnjoapp5Yu"
+                            target="_blank">Kevin Powell</a></p>
+                </div>
+                <div class="block2">
+                    <p>A little bonus for box shadow,this site provides examples of box-shadow along with the CSS, just
+                        click on the one you like,the code is copied, then paste in your CSS.
+                        <a href="https://getcssscan.com/css-box-shadow-examples" target="_blank">Beautiful CSS
+                            box-shadow examples found here!</a>
+                    </p>
+                    <br />
+                    <a href="https://htmlcheatsheet.com/" target="_blank">HTML Cheat Sheet + other helpful sheets</a>
+                    <br />
+                    <p><a href="#cheat__sheet">Cheat sheet includes starter code</a></p>
+                        
+                </div>
+            </div>
+        </div>
+        <hr />
+        <div class="layout__header">
+            <h2>Layout #1</h2>
+            <div class="container1">
+                <div class="box box-large"></div>
+                <div class="box-wrapper">
+                    <div class="box box-small"></div>
+                    <div class="box box-small"></div>
+                    <div class="box box-small"></div>
+                </div>
+            </div> <!-- end of layout 1 -->
+        </div>
+        </div>
+        <hr />
+        <div class="layout__header">
+            <h2>Layout #2</h2>
+            <div class="container2">
+                <div class="row">
+                    <div class="title"></div>
+                    <div class="box-wrapper2">
+                        <div class="box2 box-small2"></div>
+                        <div class="box2 box-small2"></div>
+                        <div class="box2 box-small2"></div>
+                        <div class="box2 box-small2"></div>
+                        <div class="box2 box-small2"></div>
+                        <div class="box2 box-small2"></div>
+                    </div>
+                </div>
+            </div><!-- end of layout 2 -->
+        </div>
+        <hr />
+        <div class="layout__header3">
+            <h2>Layout #3</h2>
+            <div class="container3">
+                <div class="box__wrapper3">
+                    <div class="box3"></div>
+                    <div class="box3"></div>
+                    <div class="box3"></div>
+                </div>
+                <div class="large__box3"></div>
+            </div><!-- end of layout 3-->
+        </div>
+        <hr />
+        <div class="layout__header4">
+            <h2>Layout #4</h2>
+            <div class="container4">
+                <div class="row4">
+                    <div class="box-wrapper4">
+                        <div class="box4 box-small4"></div>
+                        <div class="box4 box-small4"></div>
+                        <div class="tiny-wrapper4">
+                            <div class="box4 box-tiny4"></div>
+                            <div class="box4 box-tiny4"></div>
+                            <div class="box4 box-tiny4"></div>
+                        </div>
+                    </div>
+                    <div class="box4 box-large4"></div>
+                </div>
+            </div>
+        </div>
+        </div><!-- end of main__content -->
+    </main>
+</body>
+
+</html>
